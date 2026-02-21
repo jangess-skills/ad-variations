@@ -4,9 +4,16 @@ Generate diverse Facebook/Meta ad creative variations using HAF framework. Use w
 
 ## Install
 
-```
-/plugin marketplace add jangess-skills/ad-variations
-/plugin install ad-variations
+Paste this in your terminal:
+
+```bash
+mkdir -p ~/.claude/skills/ad-variations && curl -sL "https://raw.githubusercontent.com/jangess-skills/ad-variations/main/SKILL.md" -o ~/.claude/skills/ad-variations/SKILL.md
 ```
 
 Then use `/ad-variations` in Claude Code.
+
+## Uninstall
+
+```bash
+rm -rf ~/.claude/skills/ad-variations
+```
